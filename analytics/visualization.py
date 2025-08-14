@@ -321,12 +321,10 @@ class AnalyticsVisualizer:
             xaxis=dict(title='Teams'),
             yaxis=dict(
                 title='Total Team Points',
-                titlefont=dict(color=self.colors['primary']),
                 tickfont=dict(color=self.colors['primary'])
             ),
             yaxis2=dict(
                 title='Average Points per Member',
-                titlefont=dict(color=self.colors['secondary']),
                 tickfont=dict(color=self.colors['secondary']),
                 anchor="x",
                 overlaying="y",
